@@ -1,0 +1,41 @@
+:root {
+  /* --- Color: 조직 보안 콘솔의 톤. 차분한 네이비 베이스 + 신호등 위험도 컬러 --- */
+  --ink-900: #10192b;
+  --ink-700: #27324a;
+  --ink-500: #5b6478;
+  --ink-300: #9aa1b3;
+  --ink-100: #e7e9ee;
+
+  --navy-900: #0d1b33;
+  --navy-700: #16305a;
+  --navy-500: #2c4d82;
+  --navy-100: #eef2f9;
+
+  --paper: #f6f4ef;
+  --card: #ffffff;
+  --hairline: #dfe1e8;
+
+  --risk-critical: #c4432b;
+  --risk-critical-bg: #fbe9e5;
+  --risk-high: #d9820f;
+  --risk-high-bg: #fbf0dc;
+  --risk-medium: #3d6bb3;
+  --risk-medium-bg: #e8eff9;
+  --risk-safe: #3f8a63;
+  --risk-safe-bg: #e6f2ec;
+
+  --grade-a: #3f8a63;
+  --grade-b: #d9820f;
+  --grade-c: #3d6bb3;
+
+  /* --- Type --- */
+  --font-display: 'Pretendard Variable', Pretendard, -apple-system, sans-serif;
+  --font-body: 'Pretendard Variable', Pretendard, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* --- Layout --- */
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-card: 0 1px 2px rgba(16, 25, 43, 0.04), 0 8px 24px -12px rgba(16, 25, 43, 0.12);
+  --content-max: 880px;
+}
