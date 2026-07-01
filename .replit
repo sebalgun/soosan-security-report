@@ -1,5 +1,6 @@
 entrypoint = "client/src/main.jsx"
-run = ["sh", "-c", "cd client && npm install && npm run dev -- --port 3000"]
+modules = ["nodejs-20"]
+run = "cd client && npm install && npm run dev -- --port 3000"
 
 [nix]
 channel = "stable-24_05"
